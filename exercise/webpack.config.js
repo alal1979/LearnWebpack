@@ -56,7 +56,8 @@ module.exports = {
   },
   devtool: '#eval-source-map'
 }
-
+// 아래는 webpack  3일떄 운영배포시 설정 모드 , webpack 4는 mode = 'production' 으로 간단히 설정함 
+ 
 // if (process.env.NODE_ENV === 'production') {
 //   module.exports.devtool = '#source-map'
 //   // http://vue-loader.vuejs.org/en/workflow/production.html
